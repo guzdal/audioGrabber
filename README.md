@@ -22,15 +22,14 @@ Tiny browser extension to capture audio for one full iteration of the current sh
 1. Open `chrome://extensions`.
 2. Enable **Developer mode**.
 3. Click **Load unpacked**.
-4. Select:
-   - `/Users/lucasroane/Documents/New project/social-audio-downloader`
+4. Select the whole folder
 
-## Install (Firefox)
+## Install (Firefox)🦊
 
 1. Open `about:debugging#/runtime/this-firefox`.
 2. Click **Load Temporary Add-on**.
-3. Select file:
-   - `/Users/lucasroane/Documents/New project/social-audio-downloader/manifest.json`
+3. Select file in the whole folder:
+   - repo/manifest.json`
 
 ## Usage
 
