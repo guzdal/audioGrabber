@@ -3,7 +3,7 @@
 Tiny browser extension to capture audio for one full iteration of the current short/reel/video and download it as WAV (Ableton-friendly).
 
 ## What it does
-- NOW WORKS WITH .WAV!!!
+- WORKS WITH .WAV!!!
 - Detects the best candidate `<video>` element on the page.
 - Aligns capture to iteration start (`0s`):
   - if paused/stopped: seeks to `0s` and starts,
