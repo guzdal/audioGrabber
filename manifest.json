@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Social Audio Downloader",
+  "version": "1.0.0",
+  "description": "Directly download media from the currently playing short/reel/video without interrupting playback.",
+  "permissions": ["activeTab", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "Social Audio Downloader",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

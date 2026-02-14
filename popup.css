@@ -1,0 +1,56 @@
+:root {
+  color-scheme: light;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+  margin: 0;
+  width: 320px;
+  background: linear-gradient(145deg, #f0f7ff, #f7fbff);
+}
+
+main {
+  padding: 14px;
+}
+
+h1 {
+  margin: 0 0 8px;
+  font-size: 18px;
+  color: #07305b;
+}
+
+p {
+  margin: 0 0 12px;
+  font-size: 13px;
+  min-height: 36px;
+  color: #163a60;
+}
+
+.actions {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+button {
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#oneShotBtn {
+  background: #0a64c7;
+  color: #fff;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+small {
+  color: #4f6c89;
+  font-size: 11px;
+}
